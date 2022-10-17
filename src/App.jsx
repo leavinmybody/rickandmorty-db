@@ -38,7 +38,7 @@ function App() {
                 <div className="box col-start-1 col-span-4 flex items-center justify-center">
                     <div className="flex flex-col gap-2 my-4">
                         <h1 className="text-center">
-                            Ricky & Morty{" "}
+                            Rick & Morty{" "}
                             <span className="text-blue-400">Database</span>
                         </h1>
                         <input
