@@ -42,7 +42,11 @@ function App() {
                             <span className="text-blue-400">Database</span>
                         </h1>
                         <input
+ wide-search-bar
                             className="placeholder:ml-6 w-96 sm:w-full placeholder:opacity-50 border-2 border-gray-300 rounded-md p-2 focus:outline-none text-black"
+
+                            className="placeholder:ml-4 placeholder:opacity-50 border-2 border-gray-300 rounded-md p-2 focus:outline-none text-black"
+ main
                             type="text"
                             placeholder="Search"
                             onChange={handleSearch}
