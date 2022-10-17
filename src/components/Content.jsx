@@ -19,13 +19,13 @@ const Content = (props) => {
                             />
                             <h2>{character.name}</h2>
                             <div className="flex  justify-end items-center  text-sm gap-6 m-4">
-                                <h3 className=" bg-blue-400 uppercase text-black  rounded-3xl p-2">
+                                <h3 className=" bg-blue-400 uppercase text-white rounded-3xl p-2">
                                     {character.status}
                                 </h3>
-                                <h3 className=" bg-blue-400 uppercase text-black  rounded-3xl p-2">
+                                <h3 className=" bg-blue-400 uppercase text-white  rounded-3xl p-2">
                                     {character.gender}
                                 </h3>
-                                <h3 className=" bg-blue-400 uppercase text-black  rounded-3xl p-2">
+                                <h3 className=" bg-blue-400 uppercase text-white  rounded-3xl p-2">
                                     {character.species}
                                 </h3>
                             </div>
